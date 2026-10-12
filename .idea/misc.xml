@@ -8,6 +8,7 @@
         <option value="$PROJECT_DIR$/currency-exchange-service/currency-exchange-service/pom.xml" />
         <option value="$PROJECT_DIR$/spring-cloud-config-server/spring-cloud-config-server/pom.xml" />
         <option value="$PROJECT_DIR$/currency-conversion-service/currency-conversion-service/pom.xml" />
+        <option value="$PROJECT_DIR$/api-gateway/api-gateway/pom.xml" />
       </list>
     </option>
   </component>
