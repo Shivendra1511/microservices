@@ -32,7 +32,7 @@ public class AuthConfig {
         return
                 security
                         .csrf(csrf->csrf.disable())
-                        .authorizeHttpRequests(req->req.requestMatchers("/register").permitAll()
+                        .authorizeHttpRequests(req->req.requestMatchers("/register","/.well-known/jwks.json").permitAll()
                                 .anyRequest().authenticated())
                         .oauth2ResourceServer(oAuth2->oAuth2.jwt(Customizer.withDefaults()))
                         .httpBasic(Customizer.withDefaults())
